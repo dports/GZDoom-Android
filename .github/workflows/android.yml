@@ -19,6 +19,9 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
         cache: gradle
+
+    - name: setup ndk
+      uses: nttld/setup-ndk@v1.20
     - name: grab submodules
       run: git submodule update --init
     - name: run build scripts
