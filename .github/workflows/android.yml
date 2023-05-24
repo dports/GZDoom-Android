@@ -21,7 +21,7 @@ jobs:
         cache: gradle
 
     - name: setup ndk
-      uses: nttld/setup-ndk@v1.20
+      uses: nttld/setup-ndk@v1.2.0
     - name: grab submodules
       run: git submodule update --init
     - name: run build scripts
