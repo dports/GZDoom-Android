@@ -23,7 +23,7 @@ jobs:
     - name: setup ndk
       uses: nttld/setup-ndk@v1.2.0
       with:
-         ndk-version: r25b
+         ndk-version: r21
 
     - name: grab submodules
       run: git submodule update --init
