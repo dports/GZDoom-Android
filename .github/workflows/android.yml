@@ -35,8 +35,3 @@ jobs:
       uses: actions/upload-artifact@v3.1.2
       with:
         path: doom/src/main/libs/armeabi-v7a/
-
-
-  
-    
-
